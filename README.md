@@ -4,7 +4,7 @@ Container code for building Linux packages for a Tauri v2 app. This ubuntu-based
 Currently only installs npm for node package management.
 
 ## Using
-- Place all files next to your `src` and `src-tauri` directories.
+- Place all files (minus readme and license) next to your `src` and `src-tauri` directories.
 - With docker installed, run `./build_run_docker.sh`.
   - This should open a shell into the mounted current working directory.
   - **NOTE**: This will delete your `src-tauri/target` directory.
