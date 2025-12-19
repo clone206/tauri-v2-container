@@ -1,0 +1,7 @@
+dist
+node_modules
+.vscode
+.gitignore
+README.md
+Dockerfile
+src-tauri/target
